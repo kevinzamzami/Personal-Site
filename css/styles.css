@@ -1,0 +1,399 @@
+
+body{
+    background-color: #FBF5F3;
+}
+
+h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+}
+
+h2{
+    color: #343e3d!important;
+    margin: 5% 0 10%;
+    font-size: 2.3rem;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: #78826A;
+    line-height: 2;
+}
+
+
+
+/* Header Section */
+    /* Header BASE */
+        #header{
+            background-color: #343e3d;
+            color: #89937C;
+            text-align: center;
+            padding: 20% 0 0 ;
+            position: relative;
+        }
+
+    /* HEADER Text */
+        .header-kevin-style{
+            font-family: 'Sacramento', cursive;
+            font-weight: bold;
+            font-size: 4rem;
+            margin: 20% 0 5%;
+        }
+        
+        .header-webdev-style{
+            color: #89937C!important;
+            font-size: 1.3rem;
+            margin: 0 0 20%;
+        }
+
+    /* HEADER Image */
+        .header-mountain-style{
+            margin: 20% 0 0;
+            width: 100%;
+        }
+
+        .header-cloud-style{
+            width: 30%;
+            position: absolute;
+        }
+
+            .header-top-cloud-style{
+                top: 15%;
+                right: 10%;
+            }
+
+            .header-bottom-cloud-style{
+                left: 10%;
+                bottom: 35%;
+            }
+
+
+/* About Section */
+    /* About Base */
+        #about{
+            text-align: center;
+            padding: 5% 10%;
+        }
+    /* About Text */
+        
+        .about-text-style{
+            margin: 10% 0 5%;
+        }
+
+
+    /* About Image */
+        .about-image-style{
+            border-style: solid;
+            border-width: 1px;
+            border-color: #89937C;
+            border-radius: 100%;
+            margin: 5% 0 5%;
+            width: 30%;
+        }
+
+
+/* Skills Section */
+    /* Skills Base */
+        #skills{
+            padding: 5% 10% 10%;
+            text-align: center;
+        }
+    /* Skills Text */
+    .skill-header-style{
+        margin: 5% 0
+    }
+
+    /* Skills Image */
+
+
+        .skill-image-style{
+            margin: 0 10% 5%;
+            width: 30%;
+        }
+
+        
+    /* Skills Layout */
+
+        .skill-first-style{
+            margin-bottom: 15%;
+        }
+
+        .skill-second-style{
+            margin-top: 15%;
+            margin-bottom: 15%;
+        }
+
+/* Contact Section */
+    /* Contact Base  */
+        #contact{
+            padding: 5% 10% 15%;
+            text-align: center;
+        }
+
+    /* Contact text */
+        .contact-button-style{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+        }
+
+        .contact-header3-style{
+            margin-bottom: 10%;
+        }
+
+        .contact-paragraph-style{
+            margin-top: 10%;
+        }
+
+/* Footer Section */
+    /* Footer Base */
+        #footer{
+            background-color: #202626;
+            padding: 10% 10% 2.5%;
+            text-align: center;
+        }
+    /* Footer Text */
+        .footer-link-style{
+            color: white;
+            margin: 1%;
+        }
+
+        .footer-copyright-style{
+            
+            color: grey;
+            font-size: 0.75rem;
+            margin: 5% 0 0 0 ;
+        }
+
+@media (min-width: 500px) and (max-width: 767px){
+    /* Header */
+    .header-kevin-style{
+        margin-top: 10%;
+    }
+    .header-webdev-style{
+        margin-bottom: 5%;
+    }
+    .header-mountain-style{
+        width: 90%;
+        margin-top: 5%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    h2{
+        margin: 2% 0 5%;
+        font-size: 2.5rem;
+    }
+
+    h3{
+        font-size: 1.17rem;
+    }
+
+    .dot{
+        margin-bottom: 0;
+    }
+
+    /* Header */
+        #header{
+            padding: 7.5% 0 0 ;
+        }
+
+        .header-kevin-style{
+            font-size: 6rem;
+            margin-top: 7.5%;
+            margin-bottom: 2%;
+        }
+
+        .header-webdev-style{
+            font-size: 2rem;
+            margin-bottom: 2%;
+        }
+
+        .header-cloud-style{
+            width: 20%;
+        }
+
+        .header-top-cloud-style{
+            top: 5%;
+        }
+
+        .header-mountain-style{
+            width: 60%;
+            margin-top: 2%;
+        }
+
+    /* ABOUT */
+        #about{
+            padding-left: 20%; 
+            padding-right: 20%;
+            padding-bottom: 1%;
+        }
+        .about-image-style{
+            margin: 0;
+
+        }
+        .about-text-style{
+            margin-top: 2.5%;
+        }
+    /* Skill */
+        #skills{
+            padding: 5% 10% 5%;
+            text-align: center;
+        }
+        .skill-first-style{
+            margin-bottom: 5%;
+            text-align: left;
+        }
+
+        .skill-second-style{
+            margin-bottom: 5%;
+            margin-top: 5%;
+            text-align: left;
+        }
+
+        .skill-image-style{
+            margin-left: 25%;
+            width: 60%;
+        }
+
+    /* Contact */
+        #contact{
+            padding: 5% 10% 5%;
+        }
+        
+        .contact-header3-style{
+            margin-bottom: 2.5%;
+        }
+
+        .contact-paragraph-style{
+            margin-top: 2.5%;
+        }
+
+        .contact-button-style{
+            margin-bottom: 2%;
+        }
+    
+    /* Footer */
+        #footer{
+            padding: 5% 10% 2.5%;
+        }
+
+        .footer-copyright-style{
+            margin-top: 1.5%;
+        }
+}
+
+@media (min-width: 1024px){
+    h2{
+        margin: 2% 0 5%;
+        font-size: 2.5rem;
+    }
+
+    h3{
+        font-size: 1.17rem;
+    }
+
+    .dot{
+        margin-bottom: 0;
+    }
+
+    /* Header */
+        #header{
+            padding: 7.5% 0 0 ;
+        }
+
+        .header-kevin-style{
+            font-size: 6rem;
+            margin-top: 2.5%;
+            margin-bottom: 2%;
+        }
+
+        .header-webdev-style{
+            font-size: 2rem;
+            margin-bottom: 0.2%;
+        }
+
+        .header-cloud-style{
+            width: 15%;
+        }
+
+        .header-top-cloud-style{
+            top: 10%;
+        }
+
+        .header-bottom-cloud-style{
+            bottom: 45%;
+            left: 15%;
+        }
+        .header-mountain-style{
+            width: 45%;
+            margin-top: 0.2%;
+        }
+
+    /* ABOUT */
+        #about{
+            padding-left: 30%; 
+            padding-right: 30%;
+            padding-bottom: 1%;
+        }
+        .about-image-style{
+            margin-bottom: 5%;
+
+        }
+        .about-text-style{
+            margin-top: 2.5%;
+        }
+    /* Skill */
+        #skills{
+            padding: 5% 10% 2.5%;
+            text-align: center;
+        }
+        .skill-first-style{
+            margin-bottom: 5%;
+            text-align: left;
+        }
+
+        .skill-second-style{
+            margin-bottom: 5%;
+            margin-top: 5%;
+            text-align: left;
+        }
+
+        .skill-image-style{
+            margin-top: 30px;
+            margin-left: 40%;
+            width: 50%;
+        }
+
+        .skill-header-style{
+            margin-bottom: 2.5%;
+        }
+
+    /* Contact */
+        #contact{
+            padding: 5% 10% 5%;
+        }
+        
+        .contact-header3-style{
+            margin-bottom: 2.5%;
+        }
+
+        .contact-paragraph-style{
+            margin-top: 2.5%;
+        }
+
+        .contact-button-style{
+            margin-bottom: 2%;
+        }
+    
+    /* Footer */
+        #footer{
+            padding: 5% 10% 2.5%;
+        }
+
+        .footer-copyright-style{
+            margin-top: 1.5%;
+        }
+}
